@@ -9,6 +9,7 @@ GMC_URL = (
     "https://www.drevnikovesteny.cz/gmc.xml"
     "?feed_id=3&access_token=075ef03b41ee435186c08660967d1d2e"
 )
+
 OUTPUT = "docs/heureka_feed.xml"
 
 NS = {"g": "http://base.google.com/ns/1.0"}
@@ -17,6 +18,13 @@ NS = {"g": "http://base.google.com/ns/1.0"}
 def cdata(text):
     """Vrátí text obalený v CDATA."""
     return f"<![CDATA[{text}]]>"
+
+
+def sanitize_item_id(raw_id):
+    """Heureka ITEM_ID: jen čísla, písmena bez diakritiky, podtržítka, pomlčky."""
+    clean = raw_id.replace("/", "-")
+    clean = re.sub(r"[^a-zA-Z0-9_-]", "", clean)
+    return clean
 
 
 def get_delivery_date(availability):
@@ -32,13 +40,15 @@ def strip_price(price_text):
     return re.sub(r"[^\d.,]", "", price_text).strip()
 
 
-def convert_category(product_type):
-    """Převede GMC kategorii na Heureka formát s prefixem."""
-    if not product_type:
-        return ""
-    # Nahraď " > " za " | "
-    converted = product_type.replace(" > ", " | ")
-    return f"Dům a zahrada | Zahradní nábytek a doplňky | {converted}"
+def map_heureka_category(product_type):
+    """Mapuj GMC product_type na Heureka kategorie."""
+    pt = (product_type or "").strip().lower()
+    if "interiér" in pt or "interier" in pt:
+        return "Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství"
+    elif "bar" in pt:
+        return "Dům a zahrada | Zahradní nábytek a doplňky | Zahradní bary"
+    else:
+        return "Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství"
 
 
 def parse_params(item):
@@ -49,84 +59,90 @@ def parse_params(item):
         attr_value = detail.findtext("g:attribute_value", "", NS).strip()
         if not attr_name or not attr_value:
             continue
-        # Přeskoč atribut "Značka"
         if attr_name == "Značka":
             continue
-        # Ořež "> " z názvu atributu
-        if attr_name.startswith("> "):
-            attr_name = attr_name[2:]
-        params.append((attr_name, attr_value))
+        name = attr_name.lstrip("> ").strip()
+        params.append((name, attr_value))
     return params
 
 
-def build_shopitem_xml(item):
-    """Sestaví XML řetězec pro jeden SHOPITEM."""
-    item_id = item.findtext("g:id", "", NS).strip()
-    title = item.findtext("g:title", "", NS).strip()
-    custom_label_0 = item.findtext("g:custom_label_0", "", NS).strip()
-    link = item.findtext("g:link", "", NS).strip()
-    image_link = item.findtext("g:image_link", "", NS).strip()
-    price = item.findtext("g:price", "", NS).strip()
-    product_type = item.findtext("g:product_type", "", NS).strip()
-    brand = item.findtext("g:brand", "", NS).strip()
-    availability = item.findtext("g:availability", "", NS).strip()
+def build_description(title, custom_label, params):
+    """Sestav delší popis min 50 znaků pro Heureka."""
+    parts = [title]
+    if custom_label:
+        parts.append(custom_label)
+    param_strs = [f"{n}: {v}" for n, v in params]
+    if param_strs:
+        parts.append(". ".join(param_strs))
+    parts.append(
+        "Modulární ocelový dřevník z práškově lakované oceli. "
+        "Snadná montáž bez sváření. Česká výroba, skladem."
+    )
+    return " | ".join(parts)
 
-    # Složený popis = title + custom_label_0
-    product_desc = f"{title} {custom_label_0}".strip() if custom_label_0 else title
 
-    lines = []
-    lines.append("    <SHOPITEM>")
-    lines.append(f"      <ITEM_ID>{item_id}</ITEM_ID>")
-    lines.append(f"      <PRODUCTNAME>{cdata(title)}</PRODUCTNAME>")
-    lines.append(f"      <PRODUCT>{cdata(product_desc)}</PRODUCT>")
-    lines.append(f"      <DESCRIPTION>{cdata(custom_label_0)}</DESCRIPTION>")
-    lines.append(f"      <URL>{cdata(link)}</URL>")
-    lines.append(f"      <IMGURL>{cdata(image_link)}</IMGURL>")
-    lines.append(f"      <PRICE_VAT>{strip_price(price)}</PRICE_VAT>")
-    lines.append("      <VAT>21</VAT>")
+def get_text(item, tag):
+    el = item.find(f"g:{tag}", NS)
+    return el.text.strip() if el is not None and el.text else ""
 
-    if product_type:
-        cat = convert_category(product_type)
-        lines.append(f"      <CATEGORYTEXT>{cdata(cat)}</CATEGORYTEXT>")
 
-    if brand:
-        lines.append(f"      <MANUFACTURER>{cdata(brand)}</MANUFACTURER>")
+# --- Main ---
+print("Stahuji GMC feed...")
+resp = requests.get(GMC_URL)
+resp.raise_for_status()
+root = ET.fromstring(resp.content)
+items = root.findall(".//item")
+print(f"Nalezeno {len(items)} produktů")
 
+lines = ['<?xml version="1.0" encoding="utf-8"?>', "<SHOP>"]
+
+for item in items:
+    raw_id = get_text(item, "id")
+    title = get_text(item, "title")
+    if not raw_id or not title:
+        continue
+
+    clean_id = sanitize_item_id(raw_id)
+    url = get_text(item, "link")
+    img = get_text(item, "image_link")
+    price_raw = get_text(item, "price")
+    price = strip_price(price_raw) if price_raw else ""
+    availability = get_text(item, "availability")
     delivery = get_delivery_date(availability)
-    lines.append(f"      <DELIVERY_DATE>{delivery}</DELIVERY_DATE>")
+    brand = get_text(item, "brand")
+    product_type = get_text(item, "product_type")
+    custom_label = get_text(item, "custom_label_0")
 
-    for name, value in parse_params(item):
-        lines.append("      <PARAM>")
-        lines.append(f"        <PARAM_NAME>{cdata(name)}</PARAM_NAME>")
-        lines.append(f"        <VAL>{cdata(value)}</VAL>")
-        lines.append("      </PARAM>")
+    heureka_cat = map_heureka_category(product_type)
+    params = parse_params(item)
+    description = build_description(title, custom_label, params)
 
-    lines.append("    </SHOPITEM>")
-    return "\n".join(lines)
+    product_text = f"{title} — {custom_label}" if custom_label else title
 
+    lines.append("  <SHOPITEM>")
+    lines.append(f"    <ITEM_ID>{clean_id}</ITEM_ID>")
+    lines.append(f"    <PRODUCTNAME>{cdata(title)}</PRODUCTNAME>")
+    lines.append(f"    <PRODUCT>{cdata(product_text)}</PRODUCT>")
+    lines.append(f"    <DESCRIPTION>{cdata(description)}</DESCRIPTION>")
+    lines.append(f"    <URL>{cdata(url)}</URL>")
+    if img:
+        lines.append(f"    <IMGURL>{cdata(img)}</IMGURL>")
+    lines.append(f"    <PRICE_VAT>{price}</PRICE_VAT>")
+    lines.append(f"    <VAT>21</VAT>")
+    lines.append(f"    <CATEGORYTEXT>{cdata(heureka_cat)}</CATEGORYTEXT>")
+    if brand:
+        lines.append(f"    <MANUFACTURER>{cdata(brand)}</MANUFACTURER>")
+    lines.append(f"    <DELIVERY_DATE>{delivery}</DELIVERY_DATE>")
+    for pname, pval in params:
+        lines.append("    <PARAM>")
+        lines.append(f"      <PARAM_NAME>{cdata(pname)}</PARAM_NAME>")
+        lines.append(f"      <VAL>{cdata(pval)}</VAL>")
+        lines.append("    </PARAM>")
+    lines.append("  </SHOPITEM>")
 
-def main():
-    print("Stahuji GMC feed...")
-    resp = requests.get(GMC_URL, timeout=60)
-    resp.raise_for_status()
+lines.append("</SHOP>")
 
-    root = ET.fromstring(resp.content)
-    items = root.findall(".//item")
-    print(f"Nalezeno {len(items)} produktů.")
-
-    shop_items = []
-    for item in items:
-        shop_items.append(build_shopitem_xml(item))
-
-    xml_output = '<?xml version="1.0" encoding="utf-8"?>\n<SHOP>\n'
-    xml_output += "\n".join(shop_items)
-    xml_output += "\n</SHOP>\n"
-
-    with open(OUTPUT, "w", encoding="utf-8") as f:
-        f.write(xml_output)
-
-    print(f"Feed uložen do {OUTPUT} ({len(items)} položek).")
-
-
-if __name__ == "__main__":
-    main()
+xml_output = "\n".join(lines) + "\n"
+with open(OUTPUT, "w", encoding="utf-8") as f:
+    f.write(xml_output)
+print(f"Hotovo — {len(items)} produktů → {OUTPUT}")
