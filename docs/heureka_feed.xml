@@ -30635,6 +30635,34 @@
     </PARAM>
   </SHOPITEM>
   <SHOPITEM>
+    <ITEM_ID>ZSI80x750</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Zemní vrut, patka M24, 110x110 mm, žárový pozink]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Zemní vrut, patka M24, 110x110 mm, žárový pozink]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Zemní vrut, patka M24, 110x110 mm, žárový pozink | Délka: L= 470 mm. Povrch: ZN. Materiál: Ocel. závit: M24 | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/zsi-80x750-zemni-vrut-patka-m24-110x110-mm-zarovy-pozink-6671?attribute_values=1337,595,1275,1338]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/15253/image_1920?unique=5316c0b]]></IMGURL>
+    <PRICE_VAT>419.37</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Délka]]></PARAM_NAME>
+      <VAL><![CDATA[L= 470 mm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Povrch]]></PARAM_NAME>
+      <VAL><![CDATA[ZN]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Materiál]]></PARAM_NAME>
+      <VAL><![CDATA[Ocel]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[závit]]></PARAM_NAME>
+      <VAL><![CDATA[M24]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
     <ITEM_ID>imbusk_4</ITEM_ID>
     <PRODUCTNAME><![CDATA[Klíč imbus Zn  (4)]]></PRODUCTNAME>
     <PRODUCT><![CDATA[Klíč imbus Zn  (4) — nářadí]]></PRODUCT>
