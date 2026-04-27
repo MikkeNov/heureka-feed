@@ -30421,6 +30421,86 @@
     <DELIVERY_DATE>0</DELIVERY_DATE>
   </SHOPITEM>
   <SHOPITEM>
+    <ITEM_ID>6063</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Batoh - Pytlík]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Batoh - Pytlík]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Batoh - Pytlík | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/batoh-pytlik-4526]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/6063/image_1920?unique=df3da6b]]></IMGURL>
+    <PRICE_VAT>280.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>7</DELIVERY_DATE>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>10195</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Batoh - Pytlík 2]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Batoh - Pytlík 2]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Batoh - Pytlík 2 | Barva: Hnědá. motiv: lama | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/batoh-pytlik-2-5537?attribute_values=912,913]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/10195/image_1920?unique=82ac302]]></IMGURL>
+    <PRICE_VAT>200.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Barva]]></PARAM_NAME>
+      <VAL><![CDATA[Hnědá]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[motiv]]></PARAM_NAME>
+      <VAL><![CDATA[lama]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>7890</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Hrneček s Lamou]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Hrneček s Lamou — Lama Mája]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Hrneček s Lamou | Lama Mája | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/hrnecek-s-lamou-5020]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7890/image_1920?unique=e451486]]></IMGURL>
+    <PRICE_VAT>260.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>6062</ITEM_ID>
+    <PRODUCTNAME><![CDATA[KŠILTOVKA Zookoutek]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[KŠILTOVKA Zookoutek]]></PRODUCT>
+    <DESCRIPTION><![CDATA[KŠILTOVKA Zookoutek | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/ksiltovka-zookoutek-4525]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/6062/image_1920?unique=727ea75]]></IMGURL>
+    <PRICE_VAT>200.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>7</DELIVERY_DATE>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>7665</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Projížďka na Vendulce]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Projížďka na Vendulce — Dárkové poukazy]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Projížďka na Vendulce | Dárkové poukazy | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/projizdka-na-vendulce-5005]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7665/image_1920?unique=3978ba6]]></IMGURL>
+    <PRICE_VAT>550.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>6066</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Samolepky se zvířátky]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Samolepky se zvířátky]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Samolepky se zvířátky | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/samolepky-se-zviratky-4529]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/6066/image_1920?unique=5ed1daa]]></IMGURL>
+    <PRICE_VAT>40.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>7</DELIVERY_DATE>
+  </SHOPITEM>
+  <SHOPITEM>
     <ITEM_ID>13757</ITEM_ID>
     <PRODUCTNAME><![CDATA[Střecha šindel pro DDS 33/225]]></PRODUCTNAME>
     <PRODUCT><![CDATA[Střecha šindel pro DDS 33/225 — Dřevníky]]></PRODUCT>
@@ -30439,5 +30519,29 @@
       <PARAM_NAME><![CDATA[Šířka střechy]]></PARAM_NAME>
       <VAL><![CDATA[240 cm]]></VAL>
     </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>6064</ITEM_ID>
+    <PRODUCTNAME><![CDATA[TAŠKA - BAVLNA]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[TAŠKA - BAVLNA]]></PRODUCT>
+    <DESCRIPTION><![CDATA[TAŠKA - BAVLNA | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/taska-bavlna-4527]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/6064/image_1920?unique=6362c91]]></IMGURL>
+    <PRICE_VAT>242.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>7</DELIVERY_DATE>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>6065</ITEM_ID>
+    <PRODUCTNAME><![CDATA[TAŠKA PE]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[TAŠKA PE]]></PRODUCT>
+    <DESCRIPTION><![CDATA[TAŠKA PE | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/taska-pe-4528]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/6065/image_1920?unique=f8f4871]]></IMGURL>
+    <PRICE_VAT>121.0</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>7</DELIVERY_DATE>
   </SHOPITEM>
 </SHOP>
