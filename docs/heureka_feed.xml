@@ -20769,6 +20769,130 @@
     </PARAM>
   </SHOPITEM>
   <SHOPITEM>
+    <ITEM_ID>INT_GREGOR_1P_cer</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Interiérový dřevník Gregor (1 police, Černé)]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Interiérový dřevník Gregor (1 police, Černé) — Dřevníky]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Interiérový dřevník Gregor (1 police, Černé) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Počet polic: 1 police. Hloubka: 50 cm. Barva šroubů a matic: Černé | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/interierovy-drevnik-gregor-6353?attribute_values=670,676,877,508,1165,1205]]></URL>
+    <PRICE_VAT>16351.25</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
+      <VAL><![CDATA[180 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
+      <VAL><![CDATA[3 patra (pouze pro výšku 180/190cm)]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Počet polic]]></PARAM_NAME>
+      <VAL><![CDATA[1 police]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
+      <VAL><![CDATA[50 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Barva šroubů a matic]]></PARAM_NAME>
+      <VAL><![CDATA[Černé]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>INT_GREGOR_1P_str</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Interiérový dřevník Gregor (1 police, Stříbrné)]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Interiérový dřevník Gregor (1 police, Stříbrné) — Dřevníky]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Interiérový dřevník Gregor (1 police, Stříbrné) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Počet polic: 1 police. Hloubka: 50 cm. Barva šroubů a matic: Stříbrné | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/interierovy-drevnik-gregor-6353?attribute_values=670,676,877,508,1165,1204]]></URL>
+    <PRICE_VAT>16093.01</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
+      <VAL><![CDATA[180 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
+      <VAL><![CDATA[3 patra (pouze pro výšku 180/190cm)]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Počet polic]]></PARAM_NAME>
+      <VAL><![CDATA[1 police]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
+      <VAL><![CDATA[50 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Barva šroubů a matic]]></PARAM_NAME>
+      <VAL><![CDATA[Stříbrné]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>INT_GREGOR_2P_cer</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Interiérový dřevník Gregor (2 police, Černé)]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Interiérový dřevník Gregor (2 police, Černé) — Dřevníky]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Interiérový dřevník Gregor (2 police, Černé) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Počet polic: 2 police. Hloubka: 50 cm. Barva šroubů a matic: Černé | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/interierovy-drevnik-gregor-6353?attribute_values=670,676,878,508,1165,1205]]></URL>
+    <PRICE_VAT>18754.32</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
+      <VAL><![CDATA[180 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
+      <VAL><![CDATA[3 patra (pouze pro výšku 180/190cm)]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Počet polic]]></PARAM_NAME>
+      <VAL><![CDATA[2 police]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
+      <VAL><![CDATA[50 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Barva šroubů a matic]]></PARAM_NAME>
+      <VAL><![CDATA[Černé]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>INT_GREGOR_2P_str</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Interiérový dřevník Gregor (2 police, Stříbrné)]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Interiérový dřevník Gregor (2 police, Stříbrné) — Dřevníky]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Interiérový dřevník Gregor (2 police, Stříbrné) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Počet polic: 2 police. Hloubka: 50 cm. Barva šroubů a matic: Stříbrné | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/interierovy-drevnik-gregor-6353?attribute_values=670,676,878,508,1165,1204]]></URL>
+    <PRICE_VAT>18469.42</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
+      <VAL><![CDATA[180 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
+      <VAL><![CDATA[3 patra (pouze pro výšku 180/190cm)]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Počet polic]]></PARAM_NAME>
+      <VAL><![CDATA[2 police]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
+      <VAL><![CDATA[50 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Barva šroubů a matic]]></PARAM_NAME>
+      <VAL><![CDATA[Stříbrné]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
     <ITEM_ID>INT_GUSTAV_1P_cer</ITEM_ID>
     <PRODUCTNAME><![CDATA[Interiérový dřevník Gustav (1 police, Černé)]]></PRODUCTNAME>
     <PRODUCT><![CDATA[Interiérový dřevník Gustav (1 police, Černé) — Dřevníky]]></PRODUCT>
