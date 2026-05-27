@@ -4522,7 +4522,7 @@
     <PRICE_VAT>28924.95</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
       <VAL><![CDATA[180 cm]]></VAL>
@@ -7182,7 +7182,7 @@
     <PRODUCT><![CDATA[Dřevníková stěna 33/160 cm (180 cm, 3 patra (pouze pro výšku 180/190cm)) — Dřevníky]]></PRODUCT>
     <DESCRIPTION><![CDATA[Dřevníková stěna 33/160 cm (180 cm, 3 patra (pouze pro výšku 180/190cm)) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Hloubka: 33 cm | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
     <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/drevnikova-stena-33160-cm-5024?attribute_values=670,676,507,1165]]></URL>
-    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7931/image_1920?unique=7b18d28]]></IMGURL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7931/image_1920?unique=9e54d90]]></IMGURL>
     <PRICE_VAT>11450.35</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
@@ -7550,35 +7550,11 @@
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>33-190-D</ITEM_ID>
-    <PRODUCTNAME><![CDATA[Dřevníková stěna 33/190 cm (180 cm, 3 patra (pouze pro výšku 180/190cm))]]></PRODUCTNAME>
-    <PRODUCT><![CDATA[Dřevníková stěna 33/190 cm (180 cm, 3 patra (pouze pro výšku 180/190cm)) — Dřevníky]]></PRODUCT>
-    <DESCRIPTION><![CDATA[Dřevníková stěna 33/190 cm (180 cm, 3 patra (pouze pro výšku 180/190cm)) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Hloubka: 33 cm | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
-    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/drevnikova-stena-33190-cm-5025?attribute_values=670,676,507,1165]]></URL>
-    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7943/image_1920?unique=7b18d28]]></IMGURL>
-    <PRICE_VAT>11645.5</PRICE_VAT>
-    <VAT>21</VAT>
-    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>0</DELIVERY_DATE>
-    <PARAM>
-      <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
-      <VAL><![CDATA[180 cm]]></VAL>
-    </PARAM>
-    <PARAM>
-      <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
-      <VAL><![CDATA[3 patra (pouze pro výšku 180/190cm)]]></VAL>
-    </PARAM>
-    <PARAM>
-      <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
-      <VAL><![CDATA[33 cm]]></VAL>
-    </PARAM>
-  </SHOPITEM>
-  <SHOPITEM>
-    <ITEM_ID>33-190-E</ITEM_ID>
     <PRODUCTNAME><![CDATA[Dřevníková stěna 33/190 cm (150 cm, 2 patra)]]></PRODUCTNAME>
     <PRODUCT><![CDATA[Dřevníková stěna 33/190 cm (150 cm, 2 patra) — Dřevníky]]></PRODUCT>
     <DESCRIPTION><![CDATA[Dřevníková stěna 33/190 cm (150 cm, 2 patra) | Dřevníky | Výška dřevníku: 150 cm. počet pater pro dřevo: 2 patra. Hloubka: 33 cm | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
     <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/drevnikova-stena-33190-cm-5025?attribute_values=669,675,507,1165]]></URL>
-    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7944/image_1920?unique=7b18d28]]></IMGURL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7944/image_1920?unique=178f2e5]]></IMGURL>
     <PRICE_VAT>9153.86</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
@@ -7590,6 +7566,30 @@
     <PARAM>
       <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
       <VAL><![CDATA[2 patra]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
+      <VAL><![CDATA[33 cm]]></VAL>
+    </PARAM>
+  </SHOPITEM>
+  <SHOPITEM>
+    <ITEM_ID>33-190-E</ITEM_ID>
+    <PRODUCTNAME><![CDATA[Dřevníková stěna 33/190 cm (180 cm, 3 patra (pouze pro výšku 180/190cm))]]></PRODUCTNAME>
+    <PRODUCT><![CDATA[Dřevníková stěna 33/190 cm (180 cm, 3 patra (pouze pro výšku 180/190cm)) — Dřevníky]]></PRODUCT>
+    <DESCRIPTION><![CDATA[Dřevníková stěna 33/190 cm (180 cm, 3 patra (pouze pro výšku 180/190cm)) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Hloubka: 33 cm | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/drevnikova-stena-33190-cm-5025?attribute_values=670,676,507,1165]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/7943/image_1920?unique=06bcf1b]]></IMGURL>
+    <PRICE_VAT>11645.5</PRICE_VAT>
+    <VAT>21</VAT>
+    <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Výška dřevníku]]></PARAM_NAME>
+      <VAL><![CDATA[180 cm]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[počet pater pro dřevo]]></PARAM_NAME>
+      <VAL><![CDATA[3 patra (pouze pro výšku 180/190cm)]]></VAL>
     </PARAM>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
@@ -17070,7 +17070,7 @@
     <PRODUCT><![CDATA[Rohová Dřevníková stěna 33/205 cm x 235 cm  (180 cm, 3 patra (pouze pro výšku 180/190cm)) — Dřevníky]]></PRODUCT>
     <DESCRIPTION><![CDATA[Rohová Dřevníková stěna 33/205 cm x 235 cm  (180 cm, 3 patra (pouze pro výšku 180/190cm)) | Dřevníky | Výška dřevníku: 180 cm. počet pater pro dřevo: 3 patra (pouze pro výšku 180/190cm). Úhel rohu: 90° | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
     <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/rohova-drevnikova-stena-33205-cm-x-235-cm-5430?attribute_values=670,676,859]]></URL>
-    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/9536/image_1920?unique=7b18d28]]></IMGURL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/9536/image_1920?unique=7f28632]]></IMGURL>
     <PRICE_VAT>24160.03</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
@@ -17578,7 +17578,7 @@
     <PRICE_VAT>18357.81</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[50 cm]]></VAL>
@@ -17634,7 +17634,7 @@
     <PRICE_VAT>23549.58</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[50 cm]]></VAL>
@@ -17690,7 +17690,7 @@
     <PRICE_VAT>19323.39</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[70 cm]]></VAL>
@@ -17706,7 +17706,7 @@
     <PRICE_VAT>23066.27</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[70 cm]]></VAL>
@@ -17726,7 +17726,7 @@
     <PRICE_VAT>21503.04</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[70 cm]]></VAL>
@@ -17746,7 +17746,7 @@
     <PRICE_VAT>25029.46</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[70 cm]]></VAL>
@@ -17762,7 +17762,7 @@
     <PRICE_VAT>29456.51</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[70 cm]]></VAL>
@@ -17782,7 +17782,7 @@
     <PRICE_VAT>31371.88</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[70 cm]]></VAL>
