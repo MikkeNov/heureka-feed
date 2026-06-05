@@ -17982,7 +17982,7 @@
     <PRICE_VAT>9443.76</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Hloubka]]></PARAM_NAME>
       <VAL><![CDATA[95 cm]]></VAL>
@@ -20344,13 +20344,21 @@
     <ITEM_ID>DR_63</ITEM_ID>
     <PRODUCTNAME><![CDATA[Střešní držák na 2 řady šindele]]></PRODUCTNAME>
     <PRODUCT><![CDATA[Střešní držák na 2 řady šindele — Dřevníky]]></PRODUCT>
-    <DESCRIPTION><![CDATA[Střešní držák na 2 řady šindele | Dřevníky | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
-    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/dr-63-stresni-drzak-na-2-rady-sindele-5140]]></URL>
-    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/8325/image_1920?unique=7b18d28]]></IMGURL>
+    <DESCRIPTION><![CDATA[Střešní držák na 2 řady šindele | Dřevníky | Materiál: Ocel. Výrobce: Vystrčil s.r.o. | Modulární ocelový dřevník z práškově lakované oceli. Snadná montáž bez sváření. Česká výroba, skladem.]]></DESCRIPTION>
+    <URL><![CDATA[https://www.drevnikovesteny.cz/cs_CZ/shop/dr-63-stresni-drzak-na-2-rady-sindele-5140?attribute_values=1275,1306,1165]]></URL>
+    <IMGURL><![CDATA[https://www.drevnikovesteny.cz/web/image/product.product/8325/image_1920?unique=9ee2586]]></IMGURL>
     <PRICE_VAT>666.7</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
     <DELIVERY_DATE>0</DELIVERY_DATE>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Materiál]]></PARAM_NAME>
+      <VAL><![CDATA[Ocel]]></VAL>
+    </PARAM>
+    <PARAM>
+      <PARAM_NAME><![CDATA[Výrobce]]></PARAM_NAME>
+      <VAL><![CDATA[Vystrčil s.r.o.]]></VAL>
+    </PARAM>
   </SHOPITEM>
   <SHOPITEM>
     <ITEM_ID>DR_77-M</ITEM_ID>
