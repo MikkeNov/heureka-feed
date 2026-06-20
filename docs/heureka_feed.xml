@@ -20062,7 +20062,7 @@
     <PRICE_VAT>689.53</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[Délka]]></PARAM_NAME>
       <VAL><![CDATA[150 cm]]></VAL>
@@ -20546,7 +20546,7 @@
     <PRICE_VAT>91.48</PRICE_VAT>
     <VAT>21</VAT>
     <CATEGORYTEXT><![CDATA[Dům a zahrada | Krby a kamna | Koše na dřevo a krbové příslušenství]]></CATEGORYTEXT>
-    <DELIVERY_DATE>7</DELIVERY_DATE>
+    <DELIVERY_DATE>0</DELIVERY_DATE>
     <PARAM>
       <PARAM_NAME><![CDATA[varianta]]></PARAM_NAME>
       <VAL><![CDATA[Kotvení řetězem]]></VAL>
